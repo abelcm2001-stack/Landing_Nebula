@@ -11,7 +11,28 @@
 <body>
 
 <header>
-    <img src="assets/img/logo.svg" alt="Logotipo de Nébula" width="150" height="150">
+    
+    <svg class="logo-svg"
+     xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1418 1418"
+     width="150"
+     height="150"
+     role="img"
+     aria-labelledby="logo-title"
+     tabindex="0">
+
+    <title id="logo-title">Logotipo de Nébula</title>
+
+    <path class="logo-star"
+          d="M708.661,438.913l47.902,147.428l155.015,0l-125.41,91.116l47.902,147.428l-125.41,-91.116l-125.41,91.116l47.902,-147.428l-125.41,-91.116l155.015,-0l47.902,-147.428Z"/>
+
+    <g transform="matrix(0.999987,-0.00514,0.00514,0.999987,0.45522,0.285376)">
+        <text class="logo-text"
+              x="500.751"
+              y="955.484">NEBULA</text>
+    </g>
+
+</svg>
 
     <nav>
         <a href="#galeria">Galería</a>
@@ -23,45 +44,64 @@
 
 <main>
 
-    <section class="hero">
-        <h1>Bienvenido al universo de Nébula</h1>
+<section id="galeria">
+<h2>Bienvenido al universo de Nébula</h2>
 
-        <figure>
-            <img src="assets/img/Imagen-Hero.webp"
-                 alt="Imagen principal del planeta Nébula"
-                 width="1920" height="1080">
-            <figcaption>Autor: brecht-corbeel</figcaption>
-        </figure>
-    </section>
 
-    <section id="galeria">
-        <h2>Mi galería digital</h2>
+<div class="visor-galeria">
+    <figure>
+        <img id="imagen-principal"
+             src="assets/img/Imagen-Galeria.webp"
+             alt="Primera obra futurista de Nébula"
+             width="800"
+             height="500">
 
-        <div class="galeria">
+        <figcaption id="descripcion-imagen">
+            Autor: zhao-yangyang
+        </figcaption>
+    </figure>
+</div>
 
-            <figure>
-                <img src="assets/img/Imagen-Galeria.webp"
-                     alt="Primera obra futurista de Nébula"
-                     width="400" height="250" loading="lazy">
-                <figcaption>Autor: zhao-yangyang</figcaption>
-            </figure>
 
-            <figure>
-                <img src="assets/img/Imagen-Galeria1.webp"
-                     alt="Segunda obra futurista de Nébula"
-                     width="400" height="250" loading="lazy">
-                <figcaption>Autor: jisang-jung</figcaption>
-            </figure>
+<div class="galeria">
 
-            <figure>
-                <img src="assets/img/Imagen-Galeria2.webp"
-                     alt="Tercera obra futurista de Nébula"
-                     width="400" height="250" loading="lazy">
-                <figcaption>Autor: jivan-garcha</figcaption>
-            </figure>
+    <figure>
+        <img src="assets/img/Imagen-Galeria.webp"
+             alt="Primera obra futurista de Nébula"
+             data-imagen="assets/img/Imagen-Galeria.webp"
+             data-autor="Autor: zhao-yangyang"
+             tabindex="0"
+             role="button"
+             aria-label="Mostrar primera obra">
+        <figcaption>Autor: zhao-yangyang</figcaption>
+    </figure>
 
-        </div>
-    </section>
+    <figure>
+        <img src="assets/img/Imagen-Galeria1.webp"
+             alt="Segunda obra futurista de Nébula"
+             data-imagen="assets/img/Imagen-Galeria1.webp"
+             data-autor="Autor: jisang-jung"
+             tabindex="0"
+             role="button"
+             aria-label="Mostrar segunda obra">
+        <figcaption>Autor: jisang-jung</figcaption>
+    </figure>
+
+    <figure>
+        <img src="assets/img/Imagen-Galeria2.webp"
+             alt="Tercera obra futurista de Nébula"
+             data-imagen="assets/img/Imagen-Galeria2.webp"
+             data-autor="Autor: jivan-garcha"
+             tabindex="0"
+             role="button"
+             aria-label="Mostrar tercera obra">
+        <figcaption>Autor: jivan-garcha</figcaption>
+    </figure>
+
+</div>
+</section>
+
+
 
     <section id="video">
         <h2>Nébula, el planeta en vídeo</h2>
