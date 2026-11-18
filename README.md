@@ -50,3 +50,27 @@ Durante la creación y edición de los recursos de la página web he utilizado l
 * **AudioMass:** para recortar el audio, aplicar efectos de entrada y salida gradual (Fade In y Fade Out) y exportarlo en MP3.
 * **Unsplash:** para obtener la imagen principal.
 * **Pexels:** para obtener el vídeo y el audio utilizado en la página.
+
+## Propiedad intelectual y licencias
+
+Para desarrollar Nébula se han utilizado recursos de diferentes procedencias, respetando las condiciones de uso de cada plataforma.
+
+Las imágenes proceden de Unsplash y el vídeo y el audio de Pexels. Ambas plataformas permiten utilizar sus recursos gratuitamente bajo sus respectivas licencias. Aunque no es obligatorio en todos los casos, se han incluido atribuciones como reconocimiento al trabajo de sus autores.
+
+También se han creado elementos originales, como el logotipo SVG y la animación GIF de contacto.
+
+### Justificación de Creative Commons BY-SA 4.0
+
+Se ha elegido la licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0) para los elementos originales del proyecto.
+
+Esta licencia permite que otras personas puedan compartir, modificar y reutilizar las creaciones, siempre que reconozcan su autoría y mantengan la misma licencia en las obras derivadas.
+
+Por ejemplo, otra persona podría adaptar el logotipo original de Nébula para un proyecto artístico, siempre que reconociera la autoría y distribuyera su adaptación bajo CC BY-SA 4.0.
+
+Esta licencia no se aplica automáticamente a los recursos externos de Unsplash y Pexels, que conservan sus propias condiciones de uso.
+
+### Compatibilidad de licencias y escenario hipotético CC BY-SA
+
+La licencia CC BY-SA 4.0 elegida para los elementos originales de Nébula es compatible con la reutilización de recursos que también tengan licencia CC BY-SA 4.0, siempre que se respeten sus condiciones. Si se incorporara y adaptara un recurso con esa licencia, habría que atribuir a su autor, enlazar la licencia, indicar los cambios realizados y distribuir la adaptación bajo CC BY-SA 4.0.
+
+La obligación de compartir bajo la misma licencia se aplica a la adaptación del recurso. No cambia automáticamente la licencia de otros elementos independientes que se distribuyan junto a él. Los recursos de terceros que no sean CC BY-SA siguen sujetos a sus licencias originales y no deben presentarse como contenido propio.

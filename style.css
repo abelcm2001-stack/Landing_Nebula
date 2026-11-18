@@ -18,6 +18,35 @@ header {
     padding: 8px 24px;
 }
 
+.header-creditos {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+}
+
+.header-creditos h1 {
+    grid-column: 2;
+    margin: 0;
+    text-align: center;
+}
+
+.header-creditos nav {
+    grid-column: 3;
+    justify-self: end;
+}
+
+@media (max-width: 600px) {
+    .header-creditos {
+        grid-template-columns: 1fr;
+    }
+
+    .header-creditos h1,
+    .header-creditos nav {
+        grid-column: 1;
+        justify-self: center;
+        text-align: center;
+    }
+}
+
 
 .logo-svg {
     width: 150px;
@@ -67,8 +96,13 @@ nav {
 }
 
 nav a {
-    color: #70258f;
+    color: #330a44;
     text-decoration: none;
+}
+
+.enlace-volver {
+    color: #4b126b;
+    font-weight: 700;
 }
 
 section {
@@ -85,6 +119,10 @@ h1, h2 {
     width: 100%;
     max-width: 1920px;
     height: auto;
+}
+
+.hero figure {
+    margin: 0 auto;
 }
 
 .visor-galeria {
@@ -146,13 +184,136 @@ video {
     max-width: 854px;
 }
 
+/* BOTÓN PARA ABRIR EL VÍDEO */
+
+.boton-video {
+    background-color: #70258f;
+    color: white;
+    border: none;
+    padding: 14px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease,
+                transform 0.3s ease;
+}
+
+.boton-video:hover {
+    background-color: #ff00f0;
+    transform: scale(1.05);
+}
+
+.boton-video:focus-visible {
+    outline: 3px solid #ff00f0;
+    outline-offset: 4px;
+}
+
+.modal-video {
+    border: none;
+    border-radius: 15px;
+    padding: 25px;
+    background-color: #281b33;
+    color: white;
+    width: 90%;
+    max-width: 950px;
+}
+
+.modal-video::backdrop {
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.contenido-modal {
+    position: relative;
+    text-align: center;
+}
+
+.contenido-modal h3 {
+    color: white;
+}
+
+.contenido-modal video {
+    width: 100%;
+    max-width: 854px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.cerrar-modal {
+    position: absolute;
+    top: -15px;
+    right: -10px;
+    background: #ff00f0;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.cerrar-modal:hover {
+    background-color: #70258f;
+}
+
+.reproductor-audio button {
+    background-color: #70258f;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 14px 20px;
+    margin: 8px;
+    min-height: 44px;
+    cursor: pointer;
+    transition: background-color 0.3s ease,
+                transform 0.3s ease;
+}
+
+.reproductor-audio button:hover {
+    background-color: #ff00f0;
+    transform: scale(1.05);
+}
+
+.reproductor-audio button:focus-visible {
+    outline: 3px solid #ff00f0;
+    outline-offset: 4px;
+}
+
+#estado-audio {
+    color: rgb(15, 1, 1);
+    margin-top: 15px;
+}
+
 .contacto img {
     width: 300px;
     height: auto;
 }
 
+section ul {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+main a,
+main a:visited {
+    color: #0000ee;
+}
+
 footer {
-    text-align: center;
+    width: 100%;
     padding: 20px;
     color: #5c3970;
+    text-align: center;
+}
+
+footer a {
+    color: #70258f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #ff00f0;
+    text-decoration: underline;
 }
